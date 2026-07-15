@@ -1,0 +1,56 @@
+# OS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+secrets/
+API_KEYS.txt
+credentials.json
+
+# Logs
+*.log
+logs/
+
+# Large Media (track separately, not in Git)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.psd
+*.ai
+*.zip
+
+# Temporary
+temp/
+tmp/
+*.tmp
+.cache/
+
+# Node/Python (if we add scripts)
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data files (for privacy, track manually)
+# data/analytics/*.csv (optional - decide per team)
+# data/competitors/*.csv (optional)
+
+# Build outputs
+dist/
+build/
+*.egg-info/
